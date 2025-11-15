@@ -25,15 +25,15 @@ const FooterBrand = () => {
           <a href="https://www.facebook.com/memoraeai/" className="hover:text-green-400 transition-colors" target="_blank" rel="noopener noreferrer"><Facebook size={22} /></a>
           <a href="https://www.instagram.com/memorae.ai/" className="hover:text-green-400 transition-colors" target="_blank" rel="noopener noreferrer"><Instagram size={22} /></a>
         </div>
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-          <p className="mb-4 md:mb-0">© {new Date().getFullYear()} Genera Capital SLU. All rights reserved.</p>
-          <div className="flex space-x-6">
+        <div className="border-t border-white/10 pt-8 flex  flex-col md:flex-row justify-between items-center text-sm">
+          <div className="flex flex-wrap  space-x-2">
             <a href="https://memorae.ai/privacy-policy/" className="font-medium hover:text-green-400 transition-colors" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
             <a href="https://memorae.ai/terms/" className="font-medium hover:text-green-400 transition-colors" target="_blank" rel="noopener noreferrer">Terms and Conditions</a>
             <a href="https://memorae.ai/cookies-settings/" className="font-medium hover:text-green-400 transition-colors" target="_blank" rel="noopener noreferrer">Cookie Settings</a>
             <a href="https://memorae.ai/legal-notice/" className="font-medium hover:text-green-400 transition-colors" target="_blank" rel="noopener noreferrer">Legal Notice</a>
             <a href="https://memorae.ai/communications/" className="font-medium hover:text-green-400 transition-colors" target="_blank" rel="noopener noreferrer">Communication Channels</a>
           </div>
+          <p className="mt-4 md:mb-0 ">© {new Date().getFullYear()} Genera Capital SLU. All rights reserved.</p>
         </div>
       </div>
       <div className="absolute w-72 h-72 bg-purple-500 rounded-full -bottom-24 -left-24 blur-3xl opacity-30" />
