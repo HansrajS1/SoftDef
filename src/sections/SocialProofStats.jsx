@@ -20,7 +20,7 @@ const StatCard = ({ value, label, gradient }) => {
   }, [value]);
 
   return (
-    <div className="group p-6 rounded-2xl bg-white/70 backdrop-blur-md shadow-md hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 border border-gray-100">
+    <div className="group px-2 py-6 rounded-2xl bg-white/70 backdrop-blur-md shadow-md hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 border border-gray-100">
       <div
         className={`text-4xl font-extrabold bg-gradient-to-r ${gradient} text-transparent bg-clip-text mb-2 transition-transform duration-500 group-hover:scale-110`}
       >
@@ -43,7 +43,7 @@ const SocialProofStats = () => (
         <span className="text-pink-600">Luckily, now you have help.</span>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8  cursor-pointer text-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 cursor-pointer text-center">
         <StatCard value="+60000" label="people already living with a peaceful mind" gradient="from-green-500 to-pink-500" />
         <StatCard value="+45" label="countries" gradient="from-blue-500 to-pink-400" />
         <StatCard value="+5000000" label="reminders sent" gradient="from-purple-500 to-pink-500" />
