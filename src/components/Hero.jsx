@@ -4,7 +4,7 @@ import bg2 from "../assets/image/Bg2.png";
 import image2 from "../assets/image/Plant 2.png";
 import image3 from "../assets/image/Plant 3.png";
 import image4 from "../assets/image/P4.png";
-import star from "../assets/icons/star.png";
+import star from "../assets/icons/Star.png";
 import { useState } from "react";
 
 export default function Hero() {

@@ -1,6 +1,6 @@
 import { reviews } from "../data.js";
-import bg2 from "../assets/image/bg2.png";
-import Star from "../assets/icons/star.png";
+import bg2 from "../assets/image/Bg2.png";
+import Star from "../assets/icons/Star.png";
 
 export default function Reviews() {
   return (

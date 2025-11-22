@@ -1,4 +1,4 @@
-import bg2 from "../assets/image/bg2.png";
+import bg2 from "../assets/image/Bg2.png";
 
 export default function ProductCard({ name, price, desc, img }) {
   return (
