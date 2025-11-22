@@ -1,34 +1,19 @@
-import React from 'react';
-import {
-  Header,
-  Hero,
-  PainPoints,
-  SocialProofStats,
-  HowItWorks,
-  Superpowers,
-  Testimonials,
-  Manifesto,
-  Pricing,
-  FAQ,
-  Footer,
-  DemoVideo
-} from './sections';
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import TopSelling from "./components/TopSelling.jsx";
+import Reviews from "./components/Reviews.jsx";
+import BestOf from "./components/O2Plant.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
-    <div className="bg-white font-sans antialiased">
-      <Header />
+    <div className="min-h-screen text-white bg-[#1B2316] bg-flora-bg bg-leaf-gradient">
+      <Navbar />
       <main>
         <Hero />
-        <PainPoints />
-        <DemoVideo />
-        <SocialProofStats />
-        <HowItWorks />
-        <Superpowers />
-        <Testimonials />
-        <Manifesto />
-        <Pricing />
-        <FAQ />
+        <TopSelling />
+        <Reviews />
+        <BestOf />
       </main>
       <Footer />
     </div>
